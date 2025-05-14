@@ -1,0 +1,22 @@
+{
+    "enabled": true,
+    "language": "en",
+    "ignoreRegExpList": ["/[ก-๙]+/"],
+    "ignorePaths": ["node_modules/**", "dist/**"],
+    "words": [
+        "digduel",
+        "Solana",
+        "Singleplayer",
+        "mainmenu",
+        "tauri",
+        "Shadcn",
+        "Solflare",
+        "devnet",
+        "partialize",
+        "gameresult",
+        "meteorviix",
+        "turbopack",
+        "guysuvijak",
+        "lightningcss"
+    ]
+}

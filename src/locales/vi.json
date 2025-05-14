@@ -1,0 +1,120 @@
+{
+    "common": {
+        "lang": "vi",
+        "game-title": "DigDUEL",
+        "game-desc": "Đào hố cho vui!",
+        "loading": "Đang tải..."
+    },
+    "not-found": {
+        "title": "Không tìm thấy",
+        "description": "Vui lòng quay lại trang chủ.",
+        "loading": "Đang tải...",
+        "button": "Mặt sau"
+    },
+    "difficulty": {
+        "easy": "Dễ",
+        "medium": "Trung bình",
+        "hard": "Khó"
+    },
+    "gameStats": {
+        "timePlayed": "Thời gian chơi",
+        "flagsPlaced": "Cờ đã đặt",
+        "difficulty": "Độ khó"
+    },
+    "gameresult": {
+        "description": "DigDUEL thật thú vị!",
+        "win": "Bạn đã thắng!",
+        "lose": "Trò chơi kết thúc!",
+        "time": "Thời gian",
+        "score": "Điểm số",
+        "difficulty": "Độ khó",
+        "flag": "Cờ đã đặt",
+        "share-button": "Chia sẻ",
+        "again-button": "Chơi lại"
+    },
+    "mainmenu": {
+        "description": "Tạo bởi MeteorVIIx | Phiên bản {versionGame}",
+        "settings": "Cài đặt",
+        "singleplayer": {
+            "title": "Chơi đơn",
+            "description": "Chọn độ khó",
+            "easy": "Dễ",
+            "medium": "Trung bình",
+            "hard": "Khó"
+        },
+        "multiplayer": {
+            "title": "Nhiều người chơi",
+            "description": "Chọn một cuộc thi",
+            "casual-title": "Kết hợp thông thường",
+            "casual-desc": "Chơi vui mà không thay đổi thứ hạng",
+            "rank-title": "Kết hợp xếp hạng",
+            "rank-desc": "Cạnh tranh để leo lên bảng xếp hạng"
+        },
+        "store": {
+            "title": "Cửa hàng"
+        },
+        "achievement": {
+            "title": "Thành tích",
+            "description": "Tất cả thành tích được hiển thị ở đây",
+            "menu-all": "Tất cả",
+            "menu-collected": "Đã thu thập",
+            "menu-not-collected": "Chưa thu thập"
+        },
+        "quest": {
+            "title": "Các nhiệm vụ",
+            "description": "Hoàn thành nhiệm vụ hàng ngày để kiếm phần thưởng. Đặt lại vào lúc nửa đêm.",
+            "reset": "Lần đặt lại tiếp theo lúc 00:00 (GMT+7)"
+        }
+    },
+    "achievement": {
+        "complete": "Hoàn thành",
+        "achieved": "Đạt được vào ngày: {date}"
+    },
+    "quest": {
+        "complete": "Hoàn thành"
+    },
+    "game": {
+        "mine": "Mìn",
+        "reset-tooltip": "Chơi lại",
+        "win": "Bạn đã thắng!",
+        "lose": "Trò chơi kết thúc!",
+        "flag-mode": "Chế độ gắn cờ",
+        "dig-mode": "Chế độ đào"
+    },
+    "settings": {
+        "title": "Cài đặt",
+        "description": "Tự do tùy chỉnh",
+        "done-button": "xong",
+        "theme": {
+            "title": "Giao diện",
+            "system": "Hệ thống",
+            "light": "Sáng",
+            "dark": "Tối"
+        },
+        "language": {
+            "title": "Ngôn ngữ",
+            "th": "Thai",
+            "en": "English",
+            "jp": "Japanese",
+            "vi": "Tiếng Việt",
+            "zh": "Chinese"
+        },
+        "flag": {
+            "title": "Cờ"
+        },
+        "flag-color": {
+            "title": "Màu cờ"
+        },
+        "bomb": {
+            "title": "Mìn"
+        },
+        "number": {
+            "title": "Số",
+            "default": "(1) Thường",
+            "roman": "(I) La Mã",
+            "thai": "(๑) Thái",
+            "abc": "(A) ABC",
+            "question": "(?) Câu hỏi"
+        }
+    }
+}

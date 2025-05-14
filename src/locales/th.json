@@ -1,0 +1,120 @@
+{
+    "common": {
+        "lang": "th",
+        "game-title": "DigDUEL",
+        "game-desc": "ขุดหลุมเพื่อความสนุก!",
+        "loading": "กำลังโหลด..."
+    },
+    "not-found": {
+        "title": "ไม่พบหน้านี้",
+        "description": "กรุณากลับสู่หน้าแรก",
+        "loading": "กำลังโหลด...",
+        "button": "ย้อนกลับ"
+    },
+    "difficulty": {
+        "easy": "ง่าย",
+        "medium": "ปานกลาง",
+        "hard": "ยาก"
+    },
+    "gameStats": {
+        "timePlayed": "เวลาที่เล่น",
+        "flagsPlaced": "จำนวนธง",
+        "difficulty": "ระดับความยาก"
+    },
+    "gameresult": {
+        "description": "DigDUEL สนุก!",
+        "win": "คุณชนะ!",
+        "lose": "จบเกม!",
+        "time": "เวลา",
+        "score": "คะแนน",
+        "difficulty": "ระดับความยาก",
+        "flag": "จำนวนธง",
+        "share-button": "แชร์",
+        "again-button": "เล่นใหม่"
+    },
+    "mainmenu": {
+        "description": "สร้างโดย MeteorVIIx | เวอร์ชั่น {versionGame}",
+        "settings": "ตั้งค่า",
+        "singleplayer": {
+            "title": "เล่นคนเดียว",
+            "description": "เลือกระดับความยาก",
+            "easy": "ง่าย",
+            "medium": "ปานกลาง",
+            "hard": "ยาก"
+        },
+        "multiplayer": {
+            "title": "เล่นหลายคน",
+            "description": "เลือกการแข่งขัน",
+            "casual-title": "จับคู่แบบสบายๆ",
+            "casual-desc": "เล่นเพื่อความสนุกโดยไม่มีการเปลี่ยนแปลงอันดับ",
+            "rank-title": "จับคู่แบบจัดอันดับ",
+            "rank-desc": "แข่งขันเพื่อไต่อันดับ"
+        },
+        "store": {
+            "title": "ร้านค้า"
+        },
+        "achievement": {
+            "title": "ความสำเร็จ",
+            "description": "ความสำเร็จทั้งหมดแสดงที่นี่",
+            "menu-all": "ทั้งหมด",
+            "menu-collected": "ได้รับแล้ว",
+            "menu-not-collected": "ยังไม่ได้รับ"
+        },
+        "quest": {
+            "title": "ภารกิจ",
+            "description": "ทำภารกิจประจำวันให้สำเร็จเพื่อรับรางวัล รีเซ็ตเวลาเที่ยงคืน",
+            "reset": "รีเซ็ตครั้งต่อไปเวลา 00:00 น. (GMT+7)"
+        }
+    },
+    "achievement": {
+        "complete": "สำเร็จ",
+        "achieved": "ได้รับเมื่อ: {date}"
+    },
+    "quest": {
+        "complete": "สำเร็จ"
+    },
+    "game": {
+        "mine": "ระเบิด",
+        "reset-tooltip": "เริ่มใหม่",
+        "win": "คุณชนะ!",
+        "lose": "จบเกม!",
+        "flag-mode": "โหมดปักธง",
+        "dig-mode": "โหมดขุด"
+    },
+    "settings": {
+        "title": "การตั้งค่า",
+        "description": "ปรับแต่งได้อย่างอิสระ",
+        "done-button": "ปิด",
+        "theme": {
+            "title": "ธีม",
+            "system": "ระบบ",
+            "light": "สว่าง",
+            "dark": "มืด"
+        },
+        "language": {
+            "title": "ภาษา",
+            "th": "ไทย",
+            "en": "English",
+            "jp": "Japanese",
+            "vi": "Vietnamese",
+            "zh": "Chinese"
+        },
+        "flag": {
+            "title": "ธง"
+        },
+        "flag-color": {
+            "title": "สีธง"
+        },
+        "bomb": {
+            "title": "ระเบิด"
+        },
+        "number": {
+            "title": "ตัวเลข",
+            "default": "(1) ปกติ",
+            "roman": "(I) โรมัน",
+            "thai": "(๑) ไทย",
+            "abc": "(A) ABC",
+            "question": "(?) คำถาม"
+        }
+    }
+}

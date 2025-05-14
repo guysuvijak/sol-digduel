@@ -1,0 +1,120 @@
+{
+    "common": {
+        "lang": "en",
+        "game-title": "DigDUEL",
+        "game-desc": "Digging holes for fun!",
+        "loading": "Loading..."
+    },
+    "not-found": {
+        "title": "Not Found",
+        "description": "Please return to the home page.",
+        "loading": "Loading...",
+        "button": "Back"
+    },
+    "difficulty": {
+        "easy": "Easy",
+        "medium": "Medium",
+        "hard": "Hard"
+    },
+    "gameStats": {
+        "timePlayed": "Time Played",
+        "flagsPlaced": "Flags Placed",
+        "difficulty": "Difficulty"
+    },
+    "gameresult": {
+        "description": "DigDUEL is fun!",
+        "win": "You Win!",
+        "lose": "Game Over!",
+        "time": "Time",
+        "score": "Score",
+        "difficulty": "Difficulty",
+        "flag": "Flag Placed",
+        "share-button": "Share",
+        "again-button": "Play again"
+    },
+    "mainmenu": {
+        "description": "Create by MeteorVIIx | Version {versionGame}",
+        "settings": "Settings",
+        "singleplayer": {
+            "title": "Singleplayer",
+            "description": "Select difficulty",
+            "easy": "Easy",
+            "medium": "Medium",
+            "hard": "Hard"
+        },
+        "multiplayer": {
+            "title": "Multiplayer",
+            "description": "Select a competition",
+            "casual-title": "Casual Matchmaking",
+            "casual-desc": "Play for fun with no rank changes",
+            "rank-title": "Ranked Matchmaking",
+            "rank-desc": "Compete to climb the leaderboard"
+        },
+        "store": {
+            "title": "Store"
+        },
+        "achievement": {
+            "title": "Achievement",
+            "description": "All achievements are shown here",
+            "menu-all": "All",
+            "menu-collected": "Collected",
+            "menu-not-collected": "Not Collected"
+        },
+        "quest": {
+            "title": "Quests",
+            "description": "Complete daily quests to earn rewards. Resets at midnight.",
+            "reset": "Next reset at 00:00 (GMT+7)"
+        }
+    },
+    "achievement": {
+        "complete": "Completed",
+        "achieved": "Achieved on: {date}"
+    },
+    "quest": {
+        "complete": "Completed"
+    },
+    "game": {
+        "mine": "Mines",
+        "reset-tooltip": "Reset",
+        "win": "You Win!",
+        "lose": "Game Over!",
+        "flag-mode": "Flag Mode",
+        "dig-mode": "Dig Mode"
+    },
+    "settings": {
+        "title": "Settings",
+        "description": "Freely customized",
+        "done-button": "Done",
+        "theme": {
+            "title": "Theme",
+            "system": "System",
+            "light": "Light",
+            "dark": "Dark"
+        },
+        "language": {
+            "title": "Languages",
+            "th": "Thai",
+            "en": "English",
+            "jp": "Japanese",
+            "vi": "Vietnamese",
+            "zh": "Chinese"
+        },
+        "flag": {
+            "title": "Flag"
+        },
+        "flag-color": {
+            "title": "Flag Color"
+        },
+        "bomb": {
+            "title": "Bomb"
+        },
+        "number": {
+            "title": "Number",
+            "default": "(1) Normal",
+            "roman": "(I) Roman",
+            "thai": "(๑) Thai",
+            "abc": "(A) ABC",
+            "question": "(?) Question"
+        }
+    }
+}
