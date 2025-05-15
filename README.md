@@ -2,19 +2,29 @@
 
 # 🚨 Disclaimer
 
-> 📌 THIS PROJECT "DOES NOT HAVE TOKEN OR NFT" YET
-> 🚫 BEWARE OF SCAMS!
-> 📌 NO OFFICIAL TOKEN OR NFT AT THIS TIME
+> - 📌 THIS PROJECT "DOES NOT HAVE TOKEN OR NFT" YET
+> - 🚫 BEWARE OF SCAMS!
+> - 📌 NO OFFICIAL TOKEN OR NFT AT THIS TIME
 
 # 🎮 DigDUEL: Classic Game with Solana Blockchain
 
 DigDUEL is a nostalgic Minesweeper experience reimagined for the Web3 era. Built with Next.js 15 and Tauri 2.0, it's designed to run seamlessly on Web, Desktop, and Mobile.
+
 We’ve also integrated the Solana Blockchain to bring decentralized, social, and competitive features into a beloved classic.
+
+![Project Banner](/public/metadata/readme-11.gif)
+
+## 🔗 Project Link Official
+
+- Try Gameplay: https://digduel.vercel.app
+- Source code: https://github.com/guysuvijak/sol-digduel
+- Download Setup: https://github.com/guysuvijak/sol-digduel/releases/tag/setup
+- Discord: https://discord.gg/6KbSzbc999
 
 ## 🎥 Videos & Presentation
 
-Presentation: Coming Soon...
-Gameplay: Coming Soon...
+- Presentation: Coming Soon...
+- Gameplay: Coming Soon...
 
 ![Project Banner](/public/metadata/readme-2.webp)
 ![Project Banner](/public/metadata/readme-3.webp)
@@ -82,6 +92,9 @@ We use:
 - [`@solana/web3.js`](https://github.com/solana-labs/solana-web3.js) for blockchain connectivity.
 - **Helius RPC** (planned) for better performance and APIs.
 - **Metaplex Core** (planned) for on-chain assets.
+
+![Project Banner](/public/metadata/readme-9.gif)
+![Project Banner](/public/metadata/readme-10.webp)
 
 ## 🛠️ Tech Stack
 
@@ -211,12 +224,12 @@ digduel/
 
 ## 🧩 How to Modify
 
-⚙️ Game Settings → src/configs/game.tsx
-🎨 UI Themes/Icons → src/configs/settings.ts
-🌍 Languages → src/locales/, src/configs/language.ts
-🖱️ Cursors → public/cursor/
-🔠 Types → src/types/index.ts
-🧭 Site Meta → src/configs/metadata.ts & public/manifest.json
+- ⚙️ Game Settings → src/configs/game.tsx
+- 🎨 UI Themes/Icons → src/configs/settings.ts
+- 🌍 Languages → src/locales/, src/configs/language.ts
+- 🖱️ Cursors → public/cursor/
+- 🔠 Types → src/types/index.ts
+- 🧭 Site Meta → src/configs/metadata.ts & public/manifest.json
 
 ## 📜 License
 

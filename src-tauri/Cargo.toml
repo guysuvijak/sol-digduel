@@ -1,6 +1,6 @@
 [package]
 name = "digduel"
-version = "1.2.7"
+version = "1.0.0"
 description = "DigDUEL: Outsmart rivals in this Minesweeper battle on Solana. Master the grid and claim rewards!"
 license = "MIT"
 authors = ["MeteorVIIx"]

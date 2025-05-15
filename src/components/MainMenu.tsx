@@ -179,7 +179,7 @@ export const MainMenu = () => {
                     </div>
 
                     {/* Game Info */}
-                    <div className='text-center text-sm text-muted-foreground mt-6'>
+                    <div className='text-center text-sm text-muted-foreground mt-4'>
                         <p>
                             {t('mainmenu.description', {
                                 versionGame: (
@@ -192,6 +192,9 @@ export const MainMenu = () => {
                                     </Link>
                                 )
                             })}
+                        </p>
+                        <p className='text-[10px] text-center text-red-500'>
+                            {t('common.footer')}
                         </p>
                         <CustomDock />
                     </div>
