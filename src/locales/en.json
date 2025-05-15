@@ -45,6 +45,7 @@
         "multiplayer": {
             "title": "Multiplayer",
             "description": "Select a competition",
+            "feature-not-available": "This feature is not available yet",
             "casual-title": "Casual Matchmaking",
             "casual-desc": "Play for fun with no rank changes",
             "rank-title": "Ranked Matchmaking",
@@ -68,10 +69,39 @@
     },
     "achievement": {
         "complete": "Completed",
-        "achieved": "Achieved on: {date}"
+        "achieved": "Achieved on: {date}",
+        "achievement-1": {
+            "title": "First Win",
+            "description": "Win your first game of DigDUEL"
+        },
+        "achievement-2": {
+            "title": "Speed Demon",
+            "description": "Complete a medium difficulty game in under 30 seconds"
+        },
+        "achievement-3": {
+            "title": "Bomb Squad",
+            "description": "Win 10 games on hard difficulty"
+        },
+        "achievement-4": {
+            "title": "Undefeated",
+            "description": "Win 5 games in a row without losing"
+        }
     },
     "quest": {
-        "complete": "Completed"
+        "complete": "Completed",
+        "points": "{point} points",
+        "quest-1": {
+            "title": "Quick Victory",
+            "description": "Win a game on any difficulty in under 60 seconds"
+        },
+        "quest-2": {
+            "title": "Mine Sweeper",
+            "description": "Win 3 games on medium difficulty or higher"
+        },
+        "quest-3": {
+            "title": "Perfect Game",
+            "description": "Complete a game without using any flags"
+        }
     },
     "game": {
         "mine": "Mines",
@@ -84,7 +114,6 @@
     "settings": {
         "title": "Settings",
         "description": "Freely customized",
-        "done-button": "Done",
         "theme": {
             "title": "Theme",
             "system": "System",

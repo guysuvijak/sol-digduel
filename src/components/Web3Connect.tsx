@@ -1,3 +1,4 @@
+// Next.js 15 - src/components/Web3Connect.tsx
 import { useEffect, useState } from 'react';
 import dynamic from 'next/dynamic';
 

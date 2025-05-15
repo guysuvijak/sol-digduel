@@ -1,3 +1,4 @@
+// Next.js 15 - src/providers/SolanaProvider.tsx
 'use client';
 import { ReactNode, useEffect, useMemo, useCallback } from 'react';
 import {

@@ -1,3 +1,4 @@
+// Next.js 15 - src/app/page.tsx
 'use client';
 import { MainMenu } from '@/components/MainMenu';
 import { Minesweeper } from '@/components/Minesweeper';

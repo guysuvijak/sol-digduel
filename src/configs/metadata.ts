@@ -1,3 +1,4 @@
+// Next.js 15 - src/config/metadata.ts
 import type { Viewport, Metadata } from 'next';
 
 export const VIEWPORT: Viewport = {
@@ -9,13 +10,13 @@ export const VIEWPORT: Viewport = {
 
 export const METADATA: Metadata = {
     manifest: '/manifest.json',
-    title: 'DigDUEL',
+    title: 'DigDUEL | Classic Game with Web3',
     description:
-        'DigDUEL: Outsmart rivals in this Minesweeper battle on Solana. Master the grid and claim rewards!',
+        'DigDUEL blends classic Minesweeper mechanics with Web3 innovation. Compete on Solana, outplay your rivals, and earn digital rewards!',
     openGraph: {
         title: 'DigDUEL',
         description:
-            'DigDUEL: Outsmart rivals in this Minesweeper battle on Solana. Master the grid and claim rewards!',
+            'DigDUEL blends classic Minesweeper mechanics with Web3 innovation. Compete on Solana, outplay your rivals, and earn digital rewards!',
         url: 'https://digduel.vercel.app/',
         siteName: 'DigDUEL',
         images: [
@@ -26,7 +27,20 @@ export const METADATA: Metadata = {
             }
         ]
     },
-    keywords: ['DigDUEL', 'Minesweeper', 'game-website', 'meteorviix'],
+    keywords: [
+        'DigDUEL',
+        'Web3 game',
+        'Minesweeper battle',
+        'Solana game',
+        'Blockchain gaming',
+        'strategy game',
+        'multiplayer minesweeper',
+        'play to earn',
+        'Next.js game',
+        'Tauri app',
+        'Solana dApp',
+        'Meteorviix'
+    ],
     authors: [
         { name: 'DigDUEL' },
         {

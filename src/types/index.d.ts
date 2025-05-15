@@ -1,3 +1,4 @@
+// Next.js 15 - src/types/index.d.ts
 import { CommonStateProps, GameStateProps, SettingStateProps } from './store';
 
 export { CommonStateProps, GameStateProps, SettingStateProps };

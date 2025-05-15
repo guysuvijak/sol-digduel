@@ -1,3 +1,4 @@
+// Next.js 15 - src/components/modal/GameResultModal.tsx
 'use client';
 import { useState, useRef } from 'react';
 import {

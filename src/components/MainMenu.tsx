@@ -1,3 +1,4 @@
+// Next.js 15 - src/components/MainMenu.tsx
 'use client';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -19,6 +20,7 @@ import { CustomDock } from '@/components/CustomDock';
 import { useCommonStore } from '@/stores';
 import { useWallet } from '@solana/wallet-adapter-react';
 import { Web3ConnectButton } from '@/components/Web3Connect';
+import { toast } from 'sonner';
 import pkg from '../../package.json';
 
 interface PrimaryMenuButtonProps {
@@ -47,7 +49,14 @@ const PrimaryMenuButton = ({
         className='h-32 bg-gradient-to-b from-background to-muted hover:from-muted/80 hover:to-muted flex flex-col items-center justify-center gap-2 border-2'
         onClick={onClick}
     >
-        <Image alt={alt} src={image} width={32} height={32} draggable={false} />
+        <Image
+            alt={alt}
+            src={image}
+            width={32}
+            height={32}
+            draggable={false}
+            className='w-[32px] h-[32px]'
+        />
         <span className='text-sm md:text-md lg:text-lg font-bold whitespace-break-spaces'>
             {title}
         </span>
@@ -66,7 +75,14 @@ const SecondaryMenuButton = ({
         className='h-24 flex flex-col items-center justify-center gap-2 border-2'
         onClick={onClick}
     >
-        <Image alt={alt} src={image} width={32} height={32} draggable={false} />
+        <Image
+            alt={alt}
+            src={image}
+            width={32}
+            height={32}
+            draggable={false}
+            className='w-[32px] h-[32px]'
+        />
         <span className='font-bold whitespace-break-spaces'>{title}</span>
     </Button>
 );
@@ -109,19 +125,25 @@ export const MainMenu = () => {
                         <PrimaryMenuButton
                             onClick={() => setIsMenuSingleplayerOpen(true)}
                             title={t('mainmenu.singleplayer.title')}
-                            alt={'Singleplayer'}
+                            alt={''}
                             image={'/assets/icons/menu/menu-singleplayer.webp'}
                         />
                         <PrimaryMenuButton
                             onClick={() => setIsMenuMultiplayerOpen(true)}
                             title={t('mainmenu.multiplayer.title')}
-                            alt={'Multiplayer'}
+                            alt={''}
                             image={'/assets/icons/menu/menu-multiplayer.webp'}
                         />
                         <PrimaryMenuButton
-                            onClick={() => {}}
+                            onClick={() =>
+                                toast(
+                                    t(
+                                        'mainmenu.multiplayer.feature-not-available'
+                                    )
+                                )
+                            }
                             title={t('mainmenu.store.title')}
-                            alt={'Store'}
+                            alt={''}
                             image={'/assets/icons/menu/menu-store.webp'}
                         />
                     </div>
@@ -131,13 +153,13 @@ export const MainMenu = () => {
                         <SecondaryMenuButton
                             onClick={() => setIsMenuAchievementOpen(true)}
                             title={t('mainmenu.achievement.title')}
-                            alt={'Achievement'}
+                            alt={''}
                             image={'/assets/icons/menu/menu-achievement.webp'}
                         />
                         <SecondaryMenuButton
                             onClick={() => setIsMenuQuestOpen(true)}
                             title={t('mainmenu.quest.title')}
-                            alt={'Quests'}
+                            alt={''}
                             image={'/assets/icons/menu/menu-quest.webp'}
                         />
                     </div>

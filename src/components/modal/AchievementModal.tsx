@@ -1,3 +1,4 @@
+// Next.js 15 - src/components/modal/AchievementModal.tsx
 'use client';
 import {
     Dialog,
@@ -50,8 +51,7 @@ export const AchievementModal = () => {
                             {MOCK_ACHIEVEMENT_DATA.map((achievement, index) => (
                                 <AchievementCard
                                     key={index}
-                                    title={achievement.title}
-                                    description={achievement.description}
+                                    achievementId={achievement.id}
                                     collected={achievement.collected}
                                     dateCollected={
                                         achievement.dateCollected || ''
@@ -72,8 +72,7 @@ export const AchievementModal = () => {
                             ).map((achievement, index) => (
                                 <AchievementCard
                                     key={index}
-                                    title={achievement.title}
-                                    description={achievement.description}
+                                    achievementId={achievement.id}
                                     collected={achievement.collected}
                                     dateCollected={
                                         achievement.dateCollected || ''
@@ -94,8 +93,7 @@ export const AchievementModal = () => {
                             ).map((achievement, index) => (
                                 <AchievementCard
                                     key={index}
-                                    title={achievement.title}
-                                    description={achievement.description}
+                                    achievementId={achievement.id}
                                     collected={achievement.collected}
                                     dateCollected={
                                         achievement.dateCollected || ''

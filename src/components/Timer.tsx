@@ -1,3 +1,4 @@
+// Next.js 15 - src/components/Timer.tsx
 'use client';
 import { useEffect, useRef, useCallback } from 'react';
 import { Badge } from '@/components/ui/badge';

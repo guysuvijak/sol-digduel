@@ -1,58 +1,49 @@
+// Next.js 15 - src/config/mock.ts
 export const MOCK_QUEST_DATA = [
     {
         id: 1,
-        title: 'Quick Victory',
-        description: 'Win a game on any difficulty in under 60 seconds',
         progress: 0,
         total: 1,
-        reward: '50 points',
+        reward: 50,
         completed: false
     },
     {
         id: 2,
-        title: 'Mine Sweeper',
-        description: 'Win 3 games on medium difficulty or higher',
-        progress: 2,
+        progress: 0,
         total: 3,
-        reward: '100 points',
+        reward: 100,
         completed: false
     },
     {
         id: 3,
-        title: 'Perfect Game',
-        description: 'Complete a game without using any flags',
-        progress: 1,
+        progress: 0,
         total: 1,
-        reward: '150 points',
-        completed: true
+        reward: 150,
+        completed: false
     }
 ];
 
 export const MOCK_ACHIEVEMENT_DATA = [
     {
-        title: 'First Win',
-        description: 'Win your first game of DigDUEL',
-        collected: true,
-        dateCollected: '2023-09-15',
+        id: 1,
+        collected: false,
+        dateCollected: null,
         icon: '🏆'
     },
     {
-        title: 'Speed Demon',
-        description: 'Complete a medium difficulty game in under 30 seconds',
+        id: 2,
         collected: false,
         dateCollected: null,
         icon: '⚡'
     },
     {
-        title: 'Bomb Squad',
-        description: 'Win 10 games on hard difficulty',
-        collected: true,
-        dateCollected: '2024-01-20',
+        id: 3,
+        collected: false,
+        dateCollected: null,
         icon: '💣'
     },
     {
-        title: 'Undefeated',
-        description: 'Win 5 games in a row without losing',
+        id: 4,
         collected: false,
         dateCollected: null,
         icon: '🔥'

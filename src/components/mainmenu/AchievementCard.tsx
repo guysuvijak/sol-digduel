@@ -1,3 +1,4 @@
+// Next.js 15 - src/components/mainmenu/AchievementCard.tsx
 'use client';
 import { useTranslation } from '@/hooks/useTranslation';
 import { Card, CardContent } from '@/components/ui/card';
@@ -5,16 +6,14 @@ import { Badge } from '@/components/ui/badge';
 import { cn } from '@/lib/utils';
 
 interface AchievementCardProps {
-    title: string;
-    description: string;
+    achievementId: number;
     collected: boolean;
     dateCollected?: string;
     icon: string;
 }
 
 const AchievementCard = ({
-    title,
-    description,
+    achievementId,
     collected,
     dateCollected,
     icon
@@ -39,7 +38,7 @@ const AchievementCard = ({
                 </div>
                 <div className='flex-1'>
                     <h3 className='font-semibold flex items-start justify-between gap-2'>
-                        {title}
+                        {t(`achievement.achievement-${achievementId}.title`)}
                         {collected && (
                             <Badge className='ml-2' variant='outline'>
                                 {t('achievement.complete')}
@@ -47,7 +46,9 @@ const AchievementCard = ({
                         )}
                     </h3>
                     <p className='text-sm text-muted-foreground'>
-                        {description}
+                        {t(
+                            `achievement.achievement-${achievementId}.description`
+                        )}
                     </p>
                     {collected && dateCollected && (
                         <p className='text-xs text-muted-foreground mt-2'>

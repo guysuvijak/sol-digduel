@@ -1,3 +1,4 @@
+// Next.js 15 - src/components/modal/QuestModal.tsx
 'use client';
 import {
     Dialog,
@@ -29,8 +30,7 @@ export const QuestModal = () => {
                         {MOCK_QUEST_DATA.map((quest, index) => (
                             <QuestCard
                                 key={index}
-                                title={quest.title}
-                                description={quest.description}
+                                questId={quest.id}
                                 progress={quest.progress}
                                 total={quest.total}
                                 reward={quest.reward}

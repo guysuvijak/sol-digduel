@@ -1,3 +1,4 @@
+// Next.js 15 - src/stores/index.ts
 import { useCommonStore } from './commonStore';
 import { useGameStore } from './gameStore';
 import { useLanguageStore } from './languageStore';

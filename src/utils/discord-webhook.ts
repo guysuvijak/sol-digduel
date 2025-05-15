@@ -1,3 +1,4 @@
+// Next.js 15 - src/utils/discord-webhook.ts
 interface DataProps {
     publicKey: string | null;
     imageBlob: Blob;

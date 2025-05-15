@@ -1,3 +1,4 @@
+// Next.js 15 - src/components/modal/MultiplayerModal.tsx
 'use client';
 import {
     Dialog,
@@ -11,11 +12,17 @@ import { Badge } from '@/components/ui/badge';
 import { ChevronRight, Trophy, Users } from 'lucide-react';
 import { useTranslation } from '@/hooks/useTranslation';
 import { useCommonStore } from '@/stores';
+import { toast } from 'sonner';
 
 export const MultiplayerModal = () => {
     const { t } = useTranslation();
     const { isMenuMultiplayerOpen, setIsMenuMultiplayerOpen } =
         useCommonStore();
+
+    const handleButtonClick = () => {
+        setIsMenuMultiplayerOpen(false);
+        toast(t('mainmenu.multiplayer.feature-not-available'));
+    };
 
     return (
         <Dialog
@@ -33,7 +40,7 @@ export const MultiplayerModal = () => {
                     <Button
                         variant='outline'
                         className='h-16 justify-between'
-                        onClick={() => setIsMenuMultiplayerOpen(false)}
+                        onClick={handleButtonClick}
                     >
                         <div className='flex items-center gap-3'>
                             <Badge
@@ -57,7 +64,7 @@ export const MultiplayerModal = () => {
                     <Button
                         variant='outline'
                         className='h-16 justify-between'
-                        onClick={() => setIsMenuMultiplayerOpen(false)}
+                        onClick={handleButtonClick}
                     >
                         <div className='flex items-center gap-3'>
                             <Badge

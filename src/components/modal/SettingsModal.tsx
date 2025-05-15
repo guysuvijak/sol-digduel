@@ -1,3 +1,4 @@
+// Next.js 15 - src/components/modal/SettingsModal.tsx
 'use client';
 import { useMemo, ElementType, FC, ChangeEvent } from 'react';
 import {
@@ -202,14 +203,6 @@ export const SettingsModal = () => {
                             options={NUMBER_OPTIONS}
                         />
                     </div>
-                </div>
-                <div className='flex justify-end gap-3'>
-                    <Button
-                        variant='outline'
-                        onClick={() => setIsMenuSettingOpen(false)}
-                    >
-                        {t('settings.done-button')}
-                    </Button>
                 </div>
             </DialogContent>
         </Dialog>

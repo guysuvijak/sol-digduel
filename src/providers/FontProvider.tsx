@@ -1,3 +1,4 @@
+// Next.js 15 - src/providers/FontProvider.tsx
 'use client';
 import { useRef, ReactNode, createContext, useContext, useEffect } from 'react';
 import { useLanguageStore } from '@/stores/languageStore';

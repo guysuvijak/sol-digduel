@@ -1,3 +1,4 @@
+// Next.js 15 - src/types/store.d.ts
 export interface CommonStateProps {
     isMenuQuestOpen: boolean;
     isMenuAchievementOpen: boolean;

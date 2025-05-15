@@ -45,6 +45,7 @@
         "multiplayer": {
             "title": "Nhiều người chơi",
             "description": "Chọn một cuộc thi",
+            "feature-not-available": "Tính năng này hiện chưa có sẵn",
             "casual-title": "Kết hợp thông thường",
             "casual-desc": "Chơi vui mà không thay đổi thứ hạng",
             "rank-title": "Kết hợp xếp hạng",
@@ -68,10 +69,39 @@
     },
     "achievement": {
         "complete": "Hoàn thành",
-        "achieved": "Đạt được vào ngày: {date}"
+        "achieved": "Đạt được vào ngày: {date}",
+        "achievement-1": {
+            "title": "Chiến thắng đầu tiên",
+            "description": "Chiến thắng trong ván DigDUEL đầu tiên"
+        },
+        "achievement-2": {
+            "title": "Speed Demon",
+            "description": "Hoàn thành một ván đấu có độ khó trung bình trong vòng chưa đầy 30 giây"
+        },
+        "achievement-3": {
+            "title": "Bomb Squad",
+            "description": "Chiến thắng 10 ván đấu ở độ khó khó"
+        },
+        "achievement-4": {
+            "title": "Bất bại",
+            "description": "Chiến thắng 5 ván liên tiếp mà không thua"
+        }
     },
     "quest": {
-        "complete": "Hoàn thành"
+        "complete": "Hoàn thành",
+        "points": "{point} điểm",
+        "quest-1": {
+            "title": "Chiến thắng nhanh chóng",
+            "description": "Chiến thắng một trò chơi ở bất kỳ độ khó nào trong vòng dưới 60 giây"
+        },
+        "quest-2": {
+            "title": "Dò mìn",
+            "description": "Chiến thắng 3 trò chơi ở độ khó trung bình trở lên"
+        },
+        "quest-3": {
+            "title": "Trò chơi hoàn hảo",
+            "description": "Hoàn thành một trò chơi mà không sử dụng bất kỳ lá cờ nào"
+        }
     },
     "game": {
         "mine": "Mìn",
@@ -84,7 +114,6 @@
     "settings": {
         "title": "Cài đặt",
         "description": "Tự do tùy chỉnh",
-        "done-button": "xong",
         "theme": {
             "title": "Giao diện",
             "system": "Hệ thống",

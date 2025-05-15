@@ -1,3 +1,4 @@
+// Next.js 15 - src/stores/walletStore.ts
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 

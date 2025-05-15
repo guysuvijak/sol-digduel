@@ -1,3 +1,4 @@
+// Next.js 15 - src/stores/commonStore.ts
 import { create } from 'zustand';
 import { CommonStateProps } from '@/types';
 

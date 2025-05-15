@@ -45,6 +45,7 @@
         "multiplayer": {
             "title": "เล่นหลายคน",
             "description": "เลือกการแข่งขัน",
+            "feature-not-available": "ฟีเจอร์นี้ยังไม่พร้อมใช้งาน",
             "casual-title": "จับคู่แบบสบายๆ",
             "casual-desc": "เล่นเพื่อความสนุกโดยไม่มีการเปลี่ยนแปลงอันดับ",
             "rank-title": "จับคู่แบบจัดอันดับ",
@@ -68,10 +69,39 @@
     },
     "achievement": {
         "complete": "สำเร็จ",
-        "achieved": "ได้รับเมื่อ: {date}"
+        "achieved": "ได้รับเมื่อ: {date}",
+        "achievement-1": {
+            "title": "ชัยชนะครั้งแรก",
+            "description": "ชนะเกม DigDUEL ครั้งแรกของคุณ"
+        },
+        "achievement-2": {
+            "title": "Speed Demon",
+            "description": "จบเกมระดับความยากปานกลางภายใน 30 วินาที"
+        },
+        "achievement-3": {
+            "title": "Bomb Squad",
+            "description": "ชนะ 10 เกมในระดับความยากสูงสุด"
+        },
+        "achievement-4": {
+            "title": "ไม่เคยพ่ายแพ้",
+            "description": "ชนะ 5 เกมติดต่อกันโดยไม่แพ้"
+        }
     },
     "quest": {
-        "complete": "สำเร็จ"
+        "complete": "สำเร็จ",
+        "points": "{point} แต้ม",
+        "quest-1": {
+            "title": "ชัยชนะอย่างรวดเร็ว",
+            "description": "ชนะเกมในระดับความยากใดก็ได้ภายใน 60 วินาที"
+        },
+        "quest-2": {
+            "title": "เครื่องกวาดทุ่นระเบิด",
+            "description": "ชนะ 3 เกมในระดับความยากปานกลางหรือสูงกว่า"
+        },
+        "quest-3": {
+            "title": "เกมสมบูรณ์แบบ",
+            "description": "จบเกมโดยไม่ใช้ธงใดๆ"
+        }
     },
     "game": {
         "mine": "ระเบิด",
@@ -84,7 +114,6 @@
     "settings": {
         "title": "การตั้งค่า",
         "description": "ปรับแต่งได้อย่างอิสระ",
-        "done-button": "ปิด",
         "theme": {
             "title": "ธีม",
             "system": "ระบบ",

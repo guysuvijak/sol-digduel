@@ -1,3 +1,4 @@
+// Next.js 15 - src/providers/Web3Provider.tsx
 'use client';
 import dynamic from 'next/dynamic';
 import { ReactNode, useEffect, useState } from 'react';

@@ -1,3 +1,4 @@
+// Next.js 15 - src/components/modal/SingleplayerModal.tsx
 'use client';
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';

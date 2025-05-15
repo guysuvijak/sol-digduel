@@ -1,3 +1,4 @@
+// Next.js 15 - src/stores/settingStore.ts
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 import { SettingStateProps } from '@/types';

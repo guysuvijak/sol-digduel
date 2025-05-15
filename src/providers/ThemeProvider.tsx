@@ -1,3 +1,4 @@
+// Next.js 15 - src/providers/ThemeProvider.tsx
 'use client';
 import { ReactNode, useEffect, useState } from 'react';
 import { ThemeProvider as NextThemeProvider } from 'next-themes';

@@ -1,3 +1,4 @@
+// Next.js 15 - src/config/index.ts
 import { VIEWPORT, METADATA } from '@/configs/metadata';
 import {
     DIFFICULTY_DATA,

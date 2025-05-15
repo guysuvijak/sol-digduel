@@ -1,3 +1,4 @@
+// Next.js 15 - src/components/CustomDock.tsx
 'use client';
 import Link from 'next/link';
 import { HTMLAttributes } from 'react';

@@ -1,3 +1,4 @@
+// Next.js 15 - src/components/mainmenu/QuestCard.tsx
 'use client';
 import { useTranslation } from '@/hooks/useTranslation';
 import { Card, CardContent } from '@/components/ui/card';
@@ -5,17 +6,15 @@ import { Badge } from '@/components/ui/badge';
 import { cn } from '@/lib/utils';
 
 interface QuestCardProps {
-    title: string;
-    description: string;
+    questId: number;
     progress: number;
     total: number;
-    reward: string;
+    reward: number;
     completed?: boolean;
 }
 
 const QuestCard = ({
-    title,
-    description,
+    questId,
     progress,
     total,
     reward,
@@ -33,13 +32,18 @@ const QuestCard = ({
         >
             <CardContent className='p-4'>
                 <div className='flex justify-between items-start mb-2'>
-                    <h3 className='font-semibold'>{title}</h3>
-                    <Badge variant={completed ? 'default' : 'outline'}>
-                        {reward}
+                    <h3 className='font-semibold'>
+                        {t(`quest.quest-${questId}.title`)}
+                    </h3>
+                    <Badge
+                        variant={completed ? 'default' : 'outline'}
+                        className='gap-1'
+                    >
+                        {t('quest.points', { point: reward })}
                     </Badge>
                 </div>
                 <p className='text-sm text-muted-foreground mb-3'>
-                    {description}
+                    {t(`quest.quest-${questId}.description`)}
                 </p>
                 <div className='space-y-2'>
                     <div className='flex justify-between text-xs'>

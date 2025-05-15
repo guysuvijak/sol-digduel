@@ -1,3 +1,4 @@
+// Next.js 15 - src/hooks/useTranslation.tsx
 'use client';
 import { useState, useEffect, useCallback, ReactNode } from 'react';
 import { useLanguageStore } from '@/stores/languageStore';
@@ -8,28 +9,34 @@ const translationCache: { [key: string]: Translation } = {};
 export const useTranslation = () => {
     const { lang } = useLanguageStore();
     const [dict, setDict] = useState<Translation>({});
+    const [isLoaded, setIsLoaded] = useState(false);
 
     const loadTranslations = useCallback(async () => {
         try {
             if (translationCache[lang]) {
                 setDict(translationCache[lang]);
+                setIsLoaded(true);
                 return;
             }
 
             const translation = await import(`@/locales/${lang}.json`);
             translationCache[lang] = translation.default;
             setDict(translation.default);
+            setIsLoaded(true);
         } catch (e) {
             console.error(`Failed to load ${lang} translation:`, e);
         }
     }, [lang]);
 
     useEffect(() => {
+        setIsLoaded(false);
         loadTranslations();
     }, [loadTranslations]);
 
     const getTranslation = useCallback(
         (key: string, variables?: Variables): string | ReactNode[] => {
+            if (!isLoaded) return '';
+
             try {
                 const result = key
                     .split('.')
@@ -57,7 +64,7 @@ export const useTranslation = () => {
                 return key;
             }
         },
-        [dict]
+        [dict, isLoaded]
     );
 
     function t(key: string): string;
@@ -66,5 +73,5 @@ export const useTranslation = () => {
         return getTranslation(key, variables);
     }
 
-    return { t, lang };
+    return { t, lang, isLoaded };
 };

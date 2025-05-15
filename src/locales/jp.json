@@ -45,6 +45,7 @@
         "multiplayer": {
             "title": "マルチプレイヤー",
             "description": "コンテストを選択",
+            "feature-not-available": "この機能はまだ利用できません",
             "casual-title": "カジュアル マッチメイキング",
             "casual-desc": "ランク変更なしで楽しくプレイ",
             "rank-title": "ランク マッチメイキング",
@@ -68,10 +69,39 @@
     },
     "achievement": {
         "complete": "完了しました",
-        "achieved": "達成日: {date}"
+        "achieved": "達成日: {date}",
+        "achievement-1": {
+            "title": "初勝利",
+            "description": "DigDUELの初ゲームに勝利する"
+        },
+        "achievement-2": {
+            "title": "スピードデーモン",
+            "description": "中難易度のゲームを30秒以内にクリアする"
+        },
+        "achievement-3": {
+            "title": "ボム・スクワッド",
+            "description": "高難易度で10ゲーム勝利する"
+        },
+        "achievement-4": {
+            "title": "無敗",
+            "description": "負けずに5ゲーム連続勝利する"
+        }
     },
     "quest": {
-        "complete": "完了"
+        "complete": "完了",
+        "points": "{point} 点",
+        "quest-1": {
+            "title": "クイックビクトリー",
+            "description": "60秒以内に任意の難易度でゲームに勝利する"
+        },
+        "quest-2": {
+            "title": "マインスイーパー",
+            "description": "中難易度以上で3ゲームに勝利する"
+        },
+        "quest-3": {
+            "title": "パーフェクトゲーム",
+            "description": "旗を使わずにゲームをクリアする"
+        }
     },
     "game": {
         "mine": "地雷",
@@ -84,7 +114,6 @@
     "settings": {
         "title": "設定",
         "description": "自由にカスタマイズ",
-        "done-button": "近い",
         "theme": {
             "title": "テーマ",
             "system": "システム",

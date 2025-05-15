@@ -45,6 +45,7 @@
         "multiplayer": {
             "title": "多人遊戲",
             "description": "選擇比賽",
+            "feature-not-available": "此功能尚不可用",
             "casual-title": "休閒匹配",
             "casual-desc": "享受樂趣，不改變排名",
             "rank-title": "排名匹配",
@@ -68,10 +69,39 @@
     },
     "achievement": {
         "complete": "已完成",
-        "achieved": "於完成: {date}"
+        "achieved": "於完成: {date}",
+        "achievement-1": {
+            "title": "首勝",
+            "description": "贏得你的第一場 DigDUEL 遊戲"
+        },
+        "achievement-2": {
+            "title": "速度惡魔",
+            "description": "在 30 秒內完成中等難度的遊戲"
+        },
+        "achievement-3": {
+            "title": "拆彈小組",
+            "description": "在困難難度下贏得 10 場比賽"
+        },
+        "achievement-4": {
+            "title": "不敗",
+            "description": "連續贏5場比賽且不輸"
+        }
     },
     "quest": {
-        "complete": "完全的"
+        "complete": "完全的",
+        "points": "{point} 分",
+        "quest-1": {
+            "title": "速勝",
+            "description": "在 60 秒內贏得任意難度的遊戲"
+        },
+        "quest-2": {
+            "title": "掃雷艦",
+            "description": "在中等難度或更高難度下贏得 3 場遊戲"
+        },
+        "quest-3": {
+            "title": "完美遊戲",
+            "description": "不要使用任何旗幟完成遊戲"
+        }
     },
     "game": {
         "mine": "地雷",
@@ -84,7 +114,6 @@
     "settings": {
         "title": "设置",
         "description": "自由訂製",
-        "done-button": "完畢",
         "theme": {
             "title": "主题",
             "system": "系统",

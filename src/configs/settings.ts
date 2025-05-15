@@ -1,3 +1,4 @@
+// Next.js 15 - src/config/settings.ts
 import { Language, FlagStyle, BombStyle, NumberStyle } from '@/types';
 import {
     Pyramid,

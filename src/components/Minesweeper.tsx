@@ -1,3 +1,4 @@
+// Next.js 15 - src/components/Minesweeper.tsx
 'use client';
 import { useCallback, useEffect, useState } from 'react';
 import { Card, CardContent, CardHeader } from '@/components/ui/card';

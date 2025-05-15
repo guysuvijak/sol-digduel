@@ -1,3 +1,4 @@
+// Next.js 15 - src/stores/gameStore.ts
 import { create } from 'zustand';
 import { GameStateProps } from '@/types';
 

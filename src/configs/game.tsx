@@ -1,3 +1,4 @@
+// Next.js 15 - src/config/game.ts
 import { FLAG_OPTIONS, BOMB_OPTIONS } from '@/configs/settings';
 import { FlagStyle, BombStyle, NumberStyle } from '@/types';
 
