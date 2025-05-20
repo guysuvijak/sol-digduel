@@ -23,8 +23,7 @@ We’ve also integrated the Solana Blockchain to bring decentralized, social, an
 
 ## 🎥 Videos & Presentation
 
-- Presentation: Coming Soon...
-- Gameplay: Coming Soon...
+- Presentation & Gameplay: [https://youtu.be/yuv7RvaRTkU?si=0TTO59wYiSm4eb1F](https://youtu.be/yuv7RvaRTkU?si=0TTO59wYiSm4eb1F)
 
 ![Project Banner](/public/metadata/readme-2.webp)
 ![Project Banner](/public/metadata/readme-3.webp)
